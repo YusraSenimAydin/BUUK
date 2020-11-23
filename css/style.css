@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+
+body {
+    font-family: "Sniglet", sans-serif;
+    background-color: #ddbea9;
+    
+}
+
+.container .col-md-7 h4 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+  }
+  
+ .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+  }
+ .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+  }
+  .container .col-md-7 img{
+    border-radius: 30px;
+  }
+  
+  .primary-btn {
+    border-radius: 50px;
+    font-weight: bold;
+  }
+
+/* marielu */
+.section-1 {
+    padding: 5vmin 0vmin;
+  }
+  
+  .section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+  }
+  
+  .section-1 .row .col-md-6:last-child {
+    position: relative;
+  }
+  
+  .section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: rgb(8, 158, 146);
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  
+  .section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgb(230, 239, 240);
+  }
+
+
+/* card */
+ .purchase > h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+  }
+  
+  .purchase > p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin 3vmin;
+  }
+   
+  .cards div {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cards .title {
+    background:#eddcd2;
+    padding: 1.4em 2.5em;
+    font-size: 3vmin;
+  }
+  
+  .card .card-text {
+    padding: 2.5rem 3rem;
+    
+  }
+  
+  .card-body .pricing {
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+  }
+  
+  .card-body .pricing > h1 {
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+  }
